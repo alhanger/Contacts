@@ -6,6 +6,7 @@ import java.util.HashMap;
  */
 public class Contacts {
     public static void main(String[] args) {
+
         Contact bob = new Contact("Bob", 30);
         Contact alice = new Contact("Alice", 20);
         Contact charlie = new Contact("Charlie", 25);
