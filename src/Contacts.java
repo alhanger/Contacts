@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 
 /**
@@ -10,11 +11,15 @@ public class Contacts {
         Contact bob = new Contact("Bob", 30);
         Contact alice = new Contact("Alice", 20);
         Contact charlie = new Contact("Charlie", 25);
+        Contact alice2 = new Contact ("Alice", 10);
 
         ArrayList<Contact> contacts = new ArrayList<>();
         contacts.add(bob);
         contacts.add(alice);
         contacts.add(charlie);
+        contacts.add(alice2);
+
+        Collections.sort(contacts);
 
         ArrayList<Contact> contactsUnderThirty = new ArrayList<>();
 
